@@ -1,0 +1,40 @@
+﻿a[title='站长统计']{
+    display:none
+}
+
+.resource_item{
+  padding: 10px;
+  border-bottom: solid 1px gray;
+}
+
+.resource_item h4 a{
+      color: rgb(13, 13, 13);
+      font-weight: bold;
+}
+
+.glyphicon-play-circle{
+    float: left;
+    width: 39px;
+}
+
+.copyright{
+    width: 100%;
+    background: #f2f2f2;
+    display: block;
+
+    height: 40px;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #e4e4e4;
+    font-size: small;
+    line-height: 39px;
+    color: #666;
+    text-align: center;
+}
+
+.detail-table tr{
+  word-break:keep-all;      
+  white-space:nowrap;       
+  overflow:hidden;          
+  text-overflow:ellipsis;   
+}
